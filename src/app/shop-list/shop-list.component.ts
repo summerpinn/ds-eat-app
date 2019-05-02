@@ -9,9 +9,9 @@ import { Shop } from 'src/app/shop.model';
 })
 export class ShopListComponent implements OnInit {
 
-  private allShopList: Shop[] = [];
-  private selectedShopClassAll: Shop["class"] = "All";
-  private selectedShopClass: Shop["class"] = this.selectedShopClassAll;
+  allShopList: Shop[] = [];
+  selectedShopClassAll: Shop["class"] = "All";
+  selectedShopClass: Shop["class"] = this.selectedShopClassAll;
 
   constructor(private shopFirestoreService: ShopFirestoreService) { }
 
