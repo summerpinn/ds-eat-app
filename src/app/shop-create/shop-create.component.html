@@ -1,0 +1,11 @@
+<p>
+  Add an new shop!
+</p>
+
+<form [formGroup]="this.shopCreateForm">
+  <input placeholder="Shop name" required formControlName="name" type="text">
+  <input placeholder="Class" required formControlName="class" type="text">
+  <button (click)="onSubmit()">
+    Submit
+  </button>
+</form>

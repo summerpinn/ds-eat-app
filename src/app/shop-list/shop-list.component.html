@@ -1,0 +1,16 @@
+<div>
+  class
+  <select [(ngModel)]="selectedShopClass">
+    <option [value]="selectedShopClassAll">All</option>
+    <option *ngFor="let shopClass of allShopList | shopClassUnique" [value]="shopClass">{{shopClass}}</option>
+  </select>
+</div>
+
+<div *ngFor="let shop of finalShopList">
+  <p>
+    {{ shop.name }} <br>
+    {{ shop.class }} <br>
+    {{shop.lastVisit | timeAgo | visitTimeAgo}} <br>
+    <button type="button" (click)="onCheckIn(shop)">Check in</button><br>
+  </p>
+</div>
