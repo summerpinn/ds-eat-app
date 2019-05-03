@@ -8,8 +8,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 2. npm install 
 3. ng serve 
 
-Project is deployed in Firebase (git include firebase configuration), 
-Please let me know your firebase account so I can add you in the list and be able to deploy. 
+Project is deployed in Firebase (firebase config is added to this project),  
+Please let me know your firebase account so I can grant you the firebase project access. 
 
 ## Development server
 
