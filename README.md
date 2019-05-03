@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
+## Initial set up for cat developers 
+
+1. Clone repository 
+2. npm install 
+3. ng serve 
+
+Project is deployed in Firebase (git include firebase configuration), 
+Please let me know your firebase account so I can add you in the list and be able to deploy. 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
